@@ -40,9 +40,62 @@
       <sv:property sv:name="hst:label" sv:type="String">
         <sv:value>Home Page Main</sv:value>
       </sv:property>
+      <sv:property sv:name="hst:lastmodified" sv:type="Date">
+        <sv:value>2017-01-16T23:02:12.711+02:00</sv:value>
+      </sv:property>
       <sv:property sv:name="hst:xtype" sv:type="String">
         <sv:value>hst.vbox</sv:value>
       </sv:property>
+      <sv:node sv:name="carousel">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:containeritemcomponent</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:componentclassname" sv:type="String">
+          <sv:value>org.onehippo.cms7.essentials.components.EssentialsCarouselComponent</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:iconpath" sv:type="String">
+          <sv:value>images/essentials/catalog-component-icons/carousel.png</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:label" sv:type="String">
+          <sv:value>Carousel</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+          <sv:value>document4</sv:value>
+          <sv:value>document3</sv:value>
+          <sv:value>document6</sv:value>
+          <sv:value>document5</sv:value>
+          <sv:value>document2</sv:value>
+          <sv:value>document1</sv:value>
+          <sv:value>cycle</sv:value>
+          <sv:value>pause</sv:value>
+          <sv:value>carouselWidth</sv:value>
+          <sv:value>carouselHeight</sv:value>
+          <sv:value>carouselBackgroundColor</sv:value>
+          <sv:value>showNavigation</sv:value>
+          <sv:value>interval</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+          <sv:value/>
+          <sv:value>banners/how-to-green-your-dorm-room</sv:value>
+          <sv:value/>
+          <sv:value/>
+          <sv:value>banners/is-a-smart-thermostat-worth-the-investment</sv:value>
+          <sv:value>banners/10-simple-steps-to-green-your-office</sv:value>
+          <sv:value>on</sv:value>
+          <sv:value>on</sv:value>
+          <sv:value>700</sv:value>
+          <sv:value>250</sv:value>
+          <sv:value>#FFFFFF</sv:value>
+          <sv:value>off</sv:value>
+          <sv:value>5000</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:template" sv:type="String">
+          <sv:value>essentials-carousel</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:xtype" sv:type="String">
+          <sv:value>hst.item</sv:value>
+        </sv:property>
+      </sv:node>
     </sv:node>
   </sv:node>
   <sv:node sv:name="pagenotfound">
