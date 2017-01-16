@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.hippoecm:htmldiff:1.01.04">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/hippoecm/htmldiff/1.01.04/htmldiff-1.01.04.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/hippoecm/htmldiff/1.01.04/htmldiff-1.01.04-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/hippoecm/htmldiff/1.01.04/htmldiff-1.01.04-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

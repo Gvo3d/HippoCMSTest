@@ -6,11 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="HippoCMSTest" />
+        <module name="HippoCMSTest-bootstrap-configuration" />
+        <module name="HippoCMSTest-bootstrap-content" />
+        <module name="HippoCMSTest-bootstrap-webfiles" />
+        <module name="HippoCMSTest-cms" />
+        <module name="HippoCMSTest-essentials" />
+        <module name="HippoCMSTest-site" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="HippoCMSTest" target="1.5" />
+      <module name="HippoCMSTest-bootstrap" target="1.5" />
+      <module name="HippoCMSTest-bootstrap-configuration" target="1.8" />
+      <module name="HippoCMSTest-bootstrap-content" target="1.8" />
+      <module name="HippoCMSTest-bootstrap-webfiles" target="1.8" />
+      <module name="HippoCMSTest-cms" target="1.8" />
+      <module name="HippoCMSTest-essentials" target="1.8" />
+      <module name="HippoCMSTest-site" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
