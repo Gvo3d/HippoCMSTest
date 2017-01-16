@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Title: Hippo Essentials plugins dashboard
+Implementation-Version: 3.1.0
+Archiver-Version: Plexus Archiver
+Built-By: abanck
+Implementation-Vendor-Id: org.onehippo.cms7
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_101
+Implementation-URL: http://www.onehippo.org/cms7/hippo-cms7-release/hi
+ ppo-essentials/hippo-essentials-dashboard/
+Implementation-Vendor: Hippo B.V. (http://www.onehippo.com)
+

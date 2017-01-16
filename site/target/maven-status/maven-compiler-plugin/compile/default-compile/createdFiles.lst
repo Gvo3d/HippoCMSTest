@@ -1,0 +1,5 @@
+org\yakimovdenis\beans\ContentDocument.class
+org\yakimovdenis\beans\NewsDocument.class
+org\yakimovdenis\beans\BaseDocument.class
+org\yakimovdenis\beans\Imageset.class
+org\yakimovdenis\beans\Banner.class

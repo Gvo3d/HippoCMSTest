@@ -1,0 +1,169 @@
+{
+  "hippo:templates":   {
+    "en":     {
+      "new-banner-folder": "new banner folder",
+      "new-banner-document": "new banner document",
+      "new-content-folder": "new content folder",
+      "new-news-document": "new news item",
+      "new-content-document": "new content document",
+      "new-resource-bundle": "new resource bundle",
+      "new-news-folder": "new news item folder",
+      "new-untranslated-folder": "new untranslated folder",
+      "new-HippoCMSTest-imageset-image": "New Image",
+      "new-HippoCMSTest-imageset-folder": "new folder"
+    },
+    "nl":     {
+      "new-banner-folder": "nieuwe banner map",
+      "new-banner-document": "nieuwe banner",
+      "new-content-folder": "nieuwe contentmap",
+      "new-news-document": "nieuw nieuwsbericht",
+      "new-content-document": "nieuw content document",
+      "new-resource-bundle": "nieuwe resource bundle",
+      "new-news-folder": "nieuwe nieuwsmap",
+      "new-untranslated-folder": "nieuwe onvertaalde map",
+      "new-HippoCMSTest-imageset-image": "Nieuwe Afbeelding",
+      "new-HippoCMSTest-imageset-folder": "nieuwe map"
+    },
+    "de":     {
+      "new-banner-folder": "Neuer Banner-Ordner",
+      "new-banner-document": "Neues Banner",
+      "new-content-folder": "Neuer Content-Ordner",
+      "new-news-document": "Neue News",
+      "new-content-document": "Neues Content-Document",
+      "new-resource-bundle": "Neues Resource-Bundle",
+      "new-news-folder": "Neuer News-Ordner",
+      "new-untranslated-folder": "Neuer nicht übersetzter Ordner",
+      "new-HippoCMSTest-imageset-image": "Neues Bild",
+      "new-HippoCMSTest-imageset-folder": "Neuer Ordner"
+    },
+    "es":     {
+      "new-HippoCMSTest-imageset-image": "Nueva imagen",
+      "new-HippoCMSTest-imageset-folder": "nueva carpeta"
+    },
+    "fr":     {
+      "new-banner-folder": "nouveau dossier bannière",
+      "new-banner-document": "nouvelle bannière",
+      "new-content-folder": "nouveau dossier contenu",
+      "new-news-document": "nouveau message d'info",
+      "new-content-document": "nouveau document contenu",
+      "new-resource-bundle": "nouveau resource bundle",
+      "new-news-folder": "nouveau dossier messages d'info",
+      "new-untranslated-folder": "nouveau dossier non traduit",
+      "new-HippoCMSTest-imageset-image": "Nouvelle image",
+      "new-HippoCMSTest-imageset-folder": "un nouveau dossier"
+    },
+    "zh":     {
+      "new-HippoCMSTest-imageset-image": "新图片",
+      "new-HippoCMSTest-imageset-folder": "新文件夹"
+    }
+  },
+  "hippo:types":   {
+    "HippoCMSTest:bannerdocument":     {
+      "en":       {
+        "jcr:name": "Banner",
+        "HippoCMSTest:content": "Content",
+        "HippoCMSTest:title": "Title",
+        "HippoCMSTest:link": "Link",
+        "HippoCMSTest:image": "Image"
+      },
+      "nl":       {
+        "jcr:name": "Banner",
+        "HippoCMSTest:content": "Inhoud",
+        "HippoCMSTest:title": "Titel",
+        "HippoCMSTest:link": "Link",
+        "HippoCMSTest:image": "Afbeelding"
+      },
+      "fr":       {
+        "jcr:name": "Bannière",
+        "HippoCMSTest:content": "Contenu",
+        "HippoCMSTest:title": "Titre",
+        "HippoCMSTest:link": "Lien",
+        "HippoCMSTest:image": "Image"
+      },
+      "de":       {
+        "jcr:name": "Banner",
+        "HippoCMSTest:content": "Inhalt",
+        "HippoCMSTest:title": "Titel",
+        "HippoCMSTest:link": "Link",
+        "HippoCMSTest:image": "Abbildung"
+      }
+    },
+    "HippoCMSTest:newsdocument":     {
+      "en":       {
+        "HippoCMSTest:author": "Author",
+        "HippoCMSTest:date": "Date",
+        "HippoCMSTest:source": "Source",
+        "jcr:name": "News Item",
+        "HippoCMSTest:content": "Content",
+        "HippoCMSTest:location": "Location",
+        "HippoCMSTest:introduction": "Introduction",
+        "HippoCMSTest:title": "Title",
+        "HippoCMSTest:image": "Image"
+      },
+      "nl":       {
+        "HippoCMSTest:author": "Auteur",
+        "HippoCMSTest:date": "Datum",
+        "HippoCMSTest:source": "Bron",
+        "jcr:name": "Nieuwsbericht",
+        "HippoCMSTest:content": "Inhoud",
+        "HippoCMSTest:introduction": "Introductie",
+        "HippoCMSTest:location": "Locatie",
+        "HippoCMSTest:title": "Titel",
+        "HippoCMSTest:image": "Afbeelding"
+      },
+      "de":       {
+        "HippoCMSTest:author": "Verfasser",
+        "HippoCMSTest:date": "Datum",
+        "HippoCMSTest:source": "Quelle",
+        "HippoCMSTest:content": "Inhalt",
+        "jcr:name": "News",
+        "HippoCMSTest:location": "Standort",
+        "HippoCMSTest:introduction": "Einführung",
+        "HippoCMSTest:title": "Titel",
+        "HippoCMSTest:image": "Abbildung"
+      },
+      "fr":       {
+        "HippoCMSTest:author": "Auteur",
+        "HippoCMSTest:date": "Date",
+        "HippoCMSTest:source": "Source",
+        "jcr:name": "Message d'info",
+        "HippoCMSTest:content": "Contenu",
+        "HippoCMSTest:location": "Lieu",
+        "HippoCMSTest:introduction": "Introduction",
+        "HippoCMSTest:title": "Titre",
+        "HippoCMSTest:image": "Image"
+      }
+    },
+    "HippoCMSTest:contentdocument":     {
+      "en":       {
+        "HippoCMSTest:content": "Content",
+        "jcr:name": "Simple Document",
+        "HippoCMSTest:publicationdate": "Publication date",
+        "HippoCMSTest:introduction": "Introduction",
+        "HippoCMSTest:title": "Title"
+      },
+      "nl":       {
+        "HippoCMSTest:content": "Inhoud",
+        "jcr:name": "Eenvoudig Document",
+        "HippoCMSTest:publicationdate": "Publicatiedatum",
+        "HippoCMSTest:introduction": "Introductie",
+        "HippoCMSTest:title": "Titel"
+      },
+      "fr":       {
+        "HippoCMSTest:content": "Contenu",
+        "jcr:name": "Document simple",
+        "HippoCMSTest:publicationdate": "Date de publication",
+        "HippoCMSTest:introduction": "Introduction",
+        "HippoCMSTest:title": "Titre"
+      },
+      "de":       {
+        "HippoCMSTest:content": "Inhalt",
+        "jcr:name": "Einfaches Dokument",
+        "HippoCMSTest:publicationdate": "Publikationsdatum",
+        "HippoCMSTest:introduction": "Einführung",
+        "HippoCMSTest:title": "Titel"
+      }
+    },
+    "HippoCMSTest:imageset": {}
+  }
+}
