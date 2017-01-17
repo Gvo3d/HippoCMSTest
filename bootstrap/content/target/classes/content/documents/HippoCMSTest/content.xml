@@ -209,4 +209,211 @@
       </sv:node>
     </sv:node>
   </sv:node>
+  <sv:node sv:name="about">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:named</sv:value>
+      <sv:value>mix:referenceable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>53396dc4-e16f-477c-8a49-612c444872a4</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:name" sv:type="String">
+      <sv:value>About</sv:value>
+    </sv:property>
+    <sv:node sv:name="about">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>HippoCMSTest:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>3a07b0ea-7b47-4dee-ad20-2ac99f078092</sv:value>
+      </sv:property>
+      <sv:property sv:name="HippoCMSTest:introduction" sv:type="String">
+        <sv:value>This website is a demo website to showcase the features of Hippo CMS.</sv:value>
+      </sv:property>
+      <sv:property sv:name="HippoCMSTest:publicationdate" sv:type="Date">
+        <sv:value>2017-01-17T18:04:00.000+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="HippoCMSTest:title" sv:type="String">
+        <sv:value>About Hippo GoGreen</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>content/about/about[2]</sv:value>
+        <sv:value>content/about/about[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2017-01-17T18:02:20.689+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2017-01-17T18:04:50.134+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>fe976835-8a0c-4d3e-b05a-79386ab28a82</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="HippoCMSTest:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;Hippo CMS is the Content Management System for creating personalized&amp;nbsp;experiences across all channels. Hippo&amp;amp;rsquo;s open standards philosophy makes it the ideal solution for&amp;nbsp;agile development and open integration.&lt;br /&gt;
+Editors love Hippo because it's easy to use and helps them get their&amp;nbsp;work done quickly and efficiently.&lt;/p&gt;
+
+&lt;p&gt;Marketers love Hippo because they can roll out and manage channels simply&amp;nbsp;- and increase conversion with targeting and personalization.&lt;br /&gt;
+IT folks love Hippo because they can create new functionality quickly and&amp;nbsp;can integrate with other systems in no-time. And it's just fun to work with the latest and coolest&amp;nbsp; technology.&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="about">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>HippoCMSTest:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:versionable</sv:value>
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>4ddca14b-55c9-48bc-9cf2-87490cdee3f0</sv:value>
+      </sv:property>
+      <sv:property sv:name="HippoCMSTest:introduction" sv:type="String">
+        <sv:value>This website is a demo website to showcase the features of Hippo CMS.</sv:value>
+      </sv:property>
+      <sv:property sv:name="HippoCMSTest:publicationdate" sv:type="Date">
+        <sv:value>2017-01-17T18:04:00.000+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="HippoCMSTest:title" sv:type="String">
+        <sv:value>About Hippo GoGreen</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>content/about/about[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2017-01-17T18:02:20.689+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2017-01-17T18:04:53.278+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>fe976835-8a0c-4d3e-b05a-79386ab28a82</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="HippoCMSTest:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;Hippo CMS is the Content Management System for creating personalized&amp;nbsp;experiences across all channels. Hippo&amp;amp;rsquo;s open standards philosophy makes it the ideal solution for&amp;nbsp;agile development and open integration.&lt;br /&gt;
+Editors love Hippo because it's easy to use and helps them get their&amp;nbsp;work done quickly and efficiently.&lt;/p&gt;
+
+&lt;p&gt;Marketers love Hippo because they can roll out and manage channels simply&amp;nbsp;- and increase conversion with targeting and personalization.&lt;br /&gt;
+IT folks love Hippo because they can create new functionality quickly and&amp;nbsp;can integrate with other systems in no-time. And it's just fun to work with the latest and coolest&amp;nbsp; technology.&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="about">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>HippoCMSTest:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>53462cad-dde0-4c51-957a-049352a2f0eb</sv:value>
+      </sv:property>
+      <sv:property sv:name="HippoCMSTest:introduction" sv:type="String">
+        <sv:value>This website is a demo website to showcase the features of Hippo CMS.</sv:value>
+      </sv:property>
+      <sv:property sv:name="HippoCMSTest:publicationdate" sv:type="Date">
+        <sv:value>2017-01-17T18:04:00.000+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="HippoCMSTest:title" sv:type="String">
+        <sv:value>About Hippo GoGreen</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>content/about/about[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2017-01-17T18:02:20.689+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2017-01-17T18:04:53.278+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2017-01-17T18:05:00.304+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>fe976835-8a0c-4d3e-b05a-79386ab28a82</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="HippoCMSTest:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;Hippo CMS is the Content Management System for creating personalized&amp;nbsp;experiences across all channels. Hippo&amp;amp;rsquo;s open standards philosophy makes it the ideal solution for&amp;nbsp;agile development and open integration.&lt;br /&gt;
+Editors love Hippo because it's easy to use and helps them get their&amp;nbsp;work done quickly and efficiently.&lt;/p&gt;
+
+&lt;p&gt;Marketers love Hippo because they can roll out and manage channels simply&amp;nbsp;- and increase conversion with targeting and personalization.&lt;br /&gt;
+IT folks love Hippo because they can create new functionality quickly and&amp;nbsp;can integrate with other systems in no-time. And it's just fun to work with the latest and coolest&amp;nbsp; technology.&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
 </sv:node>

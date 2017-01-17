@@ -23,8 +23,10 @@
 
 <link rel="apple-touch-icon" href="<@hst.webfile path="/images/apple-touch-icon.png"/>" />
 
-<link rel="alternate" type="application/rss+xml" title="Hippo Go Green RSS" href="<@hst.webfile path="/rss"/>" />
+<link rel="alternate" type="application/rss+xml" title="Hippo Go Green RSS" href="rss" />
+
 <@hst.headContributions categoryIncludes="htmlHead" xhtml=true/>
+
 </head>
 <body class="bgpattern-neutral">
 
@@ -116,12 +118,17 @@
           </div>
         </div>
       </div>
+
       <@hst.include ref="main"/>
 
+    </div>
 
-
+    <!-- footer -->
     <@hst.include ref="footer"/>
+
   </div>
-<@hst.headContributions categoryIncludes="htmlBodyEnd" xhtml=true/>
+
+  <@hst.headContributions categoryIncludes="htmlBodyEnd" xhtml=true/>
+
 </body>
 </html>

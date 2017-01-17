@@ -41,7 +41,7 @@
         <sv:value>Home Page Main</sv:value>
       </sv:property>
       <sv:property sv:name="hst:lastmodified" sv:type="Date">
-        <sv:value>2017-01-16T23:02:12.711+02:00</sv:value>
+        <sv:value>2017-01-17T00:27:54.085+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hst:xtype" sv:type="String">
         <sv:value>hst.vbox</sv:value>
@@ -76,16 +76,16 @@
         </sv:property>
         <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
           <sv:value/>
-          <sv:value>banners/how-to-green-your-dorm-room</sv:value>
-          <sv:value/>
-          <sv:value/>
-          <sv:value>banners/is-a-smart-thermostat-worth-the-investment</sv:value>
           <sv:value>banners/10-simple-steps-to-green-your-office</sv:value>
+          <sv:value/>
+          <sv:value/>
+          <sv:value>banners/how-to-green-your-dorm-room</sv:value>
+          <sv:value>banners/is-a-smart-thermostat-worth-the-investment</sv:value>
           <sv:value>on</sv:value>
           <sv:value>on</sv:value>
           <sv:value>700</sv:value>
           <sv:value>250</sv:value>
-          <sv:value>#FFFFFF</sv:value>
+          <sv:value>#FF0000</sv:value>
           <sv:value>off</sv:value>
           <sv:value>5000</sv:value>
         </sv:property>

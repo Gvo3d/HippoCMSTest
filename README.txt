@@ -1,4 +1,4 @@
-https://www.onehippo.org/trails/developer-trail/configure-out-of-the-box-features/configure-navigation-menu.html
+https://www.onehippo.org/trails/developer-trail/configure-out-of-the-box-features/add-related-news.html
 Running locally
 ===============
 
