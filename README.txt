@@ -1,3 +1,4 @@
+https://www.onehippo.org/trails/developer-trail/configure-out-of-the-box-features/configure-navigation-menu.html
 Running locally
 ===============
 
